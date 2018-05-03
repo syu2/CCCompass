@@ -1,0 +1,14 @@
+.node circle {
+    stroke: rgb(206, 92, 92);
+    stroke-width: 1.5px;
+  }
+  
+  .node text {
+    font: 15px sans-serif;
+  }
+  
+  .link {
+    fill:none;
+    stroke:rgb(206, 92, 92);
+    stroke-width: 2px;
+  }

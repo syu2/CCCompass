@@ -1,0 +1,28 @@
+<html>
+
+
+<body>
+    <script>
+
+    loadJSON = function(file){
+        var xobj = new XMLHttpRequest();
+        //true -> false
+        xobj.open('GET', file, false);
+        xobj.onload = function (){
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            var json = JSON.parse(xobj.response)
+            return json
+        }
+        };
+        xobj.send(Int8Array);
+        return xobj.onload();
+    };
+
+    window.onload = function(){
+        console.log(loadJSON('Jobs/data+science.json').length)
+        console.log(loadJSON('Jobs/python.json').length)
+    }
+    </script>
+</body>
+
+</html>

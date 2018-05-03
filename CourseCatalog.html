@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Course Catalog -->
+    <link rel="stylesheet" href="CourseCatalog.css">
+    <script src = "CourseCatalog.js" ></script>
+    <!-- Tree D3 -->
+    <link rel="stylesheet" href="Tree.css">
+    <script src = "Tree.js" ></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Context Menu -->
+    <script src="contextMenu/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="contextMenu/src/jquery.ui.position.js" type="text/javascript"></script>
+    <script src="contextMenu/src/jquery.contextMenu.js" type="text/javascript"></script>
+    <script src="contextMenu/prettify/prettify.js" type="text/javascript"></script>
+    <link href="contextMenu/src/jquery.contextMenu.css" rel="stylesheet" type="text/css" />
+    <link href="contextMenu/prettify/prettify.sunburst.css" rel="stylesheet" type="text/css" />
+    <!-- d3 -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+</head>
+
+<body id = "Courses" >
+  <br>
+  <br>
+    <h1  id = 'header' > <img src = 'Logos/mit.png' width = '100' height = '50' ></img> Course Catalog</h1>
+    
+    <!-- search bar -->
+    <button onclick = "courseSearch()" id = "search" >Search</button>
+    <input placeholder = "Search..." id = "input" ></input>
+
+    <!-- filter buttons -->
+    <button id = "term"> <img src = 'Logos/Fall.png'></img> </button>
+    <button id = "term"> <img src = 'Logos/IAP.png'></img> </button>
+    <button id = "term"> <img src = 'Logos/Spring.png'></img> </button>
+    <button id = "term"> <img src = 'Logos/Summer.png'></img> </button>
+    <button id = "term"> U </button>
+    <button id = "term"> G </button>
+
+      <br>
+      <br>
+      <br>
+      <br>
+    <!-- course saver -->
+    <button id = "saved" class = "collapsible"> SAVED COURSES </button>
+    <div id = "savedCourses" class= "content">
+      <p></p>
+    </div> 
+    <br>
+    <button id = "jobs" class = "collapsible"> COURSE CAREER COMPASS </button>
+    <div id = "jobsresult" class= "content">
+      <br>
+      <button onclick = "triggerTree()" id = "search" >Search</button>
+      <input placeholder = "Search jobs..." id = "inputJob" ></input>
+      <p></p>
+    </div> 
+      <br>
+      <br>
+      <br>
+<!-- 
+<button class="collapsible">Course Title  <span class = "logoContainer"> <img src="Logos/TERM.png"></img> </span>  </button>
+<div class="content">
+<p> Course Description </p>
+</div> 
+-->
+
+</body>
+
+<script>
+  window.onload = function(){
+    course.loadCollapsible();
+    course.Collapsible();
+    course.Filter();
+    course.SaveCourse();
+    course.Delete();
+  }
+
+  var triggerTree = function(){
+    var input = document.getElementById("inputJob").value;
+    Tree(input);
+  }
+
+  var courseSearch = function(){
+    course.Search();
+  }
+
+</script> 
+
+
+
+</html>
+
