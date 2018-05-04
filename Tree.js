@@ -2,19 +2,19 @@
 
 var treeData = {};
 
-loadJSON = function(file){
-    var xobj = new XMLHttpRequest();
-    //true -> false
-    xobj.open('GET', file, false);
-    xobj.onload = function (){
-        if (xobj.readyState == 4 && xobj.status == "200") {
-        var json = JSON.parse(xobj.response)
-        return json
-        }
-    };
-    xobj.send(Int8Array);
-    return xobj.onload();
-};
+// loadJSON = function(file){
+//     var xobj = new XMLHttpRequest();
+//     //true -> false
+//     xobj.open('GET', file, false);
+//     xobj.onload = function (){
+//         if (xobj.readyState == 4 && xobj.status == "200") {
+//         var json = JSON.parse(xobj.response)
+//         return json
+//         }
+//     };
+//     xobj.send(Int8Array);
+//     return xobj.onload();
+// };
 
 
 //====================================================================================
@@ -36,7 +36,7 @@ var jobTree = function(jobtitle, numberOfClusters){
         };
 
     //load data: cluster.json
-    var data = loadJSON('Jobs/cluster.json');
+    var data = cluster;
 
     //cluster ids
     var clusterid = [];
@@ -63,7 +63,7 @@ var Tree = function(jobtitle){
 
     jobTree(jobtitle,2);
 
-    var data = loadJSON('Jobs/cluster.json');
+    var data = cluster;
     var jobClusterID = data[jobtitle]['cluster'];
     var heightVar = data['cluster ' + jobClusterID].length*50
 
