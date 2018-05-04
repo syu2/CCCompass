@@ -1,0 +1,1857 @@
+var cluster = {
+ "f8d4627a-7830-11e7-9e78-d9b1c842a413": {
+  "weight": [
+   1,
+   7
+  ],
+  "cluster": 1
+ },
+ "Linux System Administrator / System Engineer": {
+  "weight": [
+   1,
+   7
+  ],
+  "cluster": 1
+ },
+ "52a4e146-4e3f-11e8-8ef6-3fb76ee048bf": {
+  "weight": [
+   0,
+   7
+  ],
+  "cluster": 1
+ },
+ "Developer": {
+  "weight": [
+   0,
+   7
+  ],
+  "cluster": 1
+ },
+ "a10e0222-9701-11e7-99b5-3e0083d090e0": {
+  "weight": [
+   16,
+   6
+  ],
+  "cluster": 0
+ },
+ "Data Scientist": {
+  "weight": [
+   12,
+   5
+  ],
+  "cluster": 0
+ },
+ "f127a8ca-fdd3-11e6-81a4-fe9da905eb01": {
+  "weight": [
+   12,
+   5
+  ],
+  "cluster": 0
+ },
+ "fa2381ba-fdd3-11e6-82c5-5b93b6d5fc76": {
+  "weight": [
+   2,
+   8
+  ],
+  "cluster": 1
+ },
+ "DevOps Engineer | Site Reliability Engineer": {
+  "weight": [
+   2,
+   8
+  ],
+  "cluster": 1
+ },
+ "cd788a5e-97cd-11e7-81ed-ae7d47995799": {
+  "weight": [
+   1,
+   13
+  ],
+  "cluster": 1
+ },
+ "Senior Front End Developer": {
+  "weight": [
+   1,
+   13
+  ],
+  "cluster": 1
+ },
+ "db9ef0f4-bfe7-11e7-98d4-d371577aa6c0": {
+  "weight": [
+   3,
+   14
+  ],
+  "cluster": 1
+ },
+ "Full Stack Developer": {
+  "weight": [
+   3,
+   14
+  ],
+  "cluster": 1
+ },
+ "15a1bd48-10da-11e8-8dd7-7617cf12b322": {
+  "weight": [
+   3,
+   14
+  ],
+  "cluster": 1
+ },
+ "40a95a22-4e20-11e8-9701-1b7423468ecc": {
+  "weight": [
+   0,
+   13
+  ],
+  "cluster": 1
+ },
+ "Senior iCloud Software Engineer": {
+  "weight": [
+   0,
+   13
+  ],
+  "cluster": 1
+ },
+ "3f1f876c-4e20-11e8-94e4-aed74a007765": {
+  "weight": [
+   1,
+   2
+  ],
+  "cluster": 1
+ },
+ "Senior Software Engineer, iTunes Editorial Tools": {
+  "weight": [
+   1,
+   2
+  ],
+  "cluster": 1
+ },
+ "3ca6476e-4e20-11e8-9201-52efa277c307": {
+  "weight": [
+   0,
+   13
+  ],
+  "cluster": 1
+ },
+ "1860dbd2-4e0a-11e8-824d-e9573fe33079": {
+  "weight": [
+   1,
+   3
+  ],
+  "cluster": 1
+ },
+ "Java and C/C# Developer, Trading Systems": {
+  "weight": [
+   1,
+   3
+  ],
+  "cluster": 1
+ },
+ "c20a142a-4dfe-11e8-8bba-6e4e388640ae": {
+  "weight": [
+   0,
+   0
+  ],
+  "cluster": 0
+ },
+ "InnoMaster IT- WiSe 2018": {
+  "weight": [
+   0,
+   0
+  ],
+  "cluster": 0
+ },
+ "dab58272-4de3-11e8-9545-092ffb7f19b9": {
+  "weight": [
+   2,
+   7
+  ],
+  "cluster": 1
+ },
+ "Front End Engineer": {
+  "weight": [
+   2,
+   7
+  ],
+  "cluster": 1
+ },
+ "409714aa-4de1-11e8-8546-20a952dfe08d": {
+  "weight": [
+   0,
+   18
+  ],
+  "cluster": 1
+ },
+ "Senior C++ Developer": {
+  "weight": [
+   0,
+   18
+  ],
+  "cluster": 1
+ },
+ "428e51e4-4ddf-11e8-8a07-67eb144e5584": {
+  "weight": [
+   2,
+   12
+  ],
+  "cluster": 1
+ },
+ "Fullstack JavaScript developer": {
+  "weight": [
+   2,
+   12
+  ],
+  "cluster": 1
+ },
+ "f711f746-4ddb-11e8-8ba9-0bea8d2448e9": {
+  "weight": [
+   0,
+   21
+  ],
+  "cluster": 1
+ },
+ "C#/C++ Developer": {
+  "weight": [
+   0,
+   21
+  ],
+  "cluster": 1
+ },
+ "949e5a7a-4d57-11e8-9178-6a21e83a3735": {
+  "weight": [
+   0,
+   19
+  ],
+  "cluster": 1
+ },
+ "Engineering Manager, Vault": {
+  "weight": [
+   0,
+   19
+  ],
+  "cluster": 1
+ },
+ "776c9e60-4ca0-11e8-9860-71a43ad1cbdd": {
+  "weight": [
+   24,
+   6
+  ],
+  "cluster": 0
+ },
+ "Business Intelligence Data Engineer ": {
+  "weight": [
+   24,
+   6
+  ],
+  "cluster": 0
+ },
+ "eea00520-3487-11e8-9403-ba1a7cdf47b1": {
+  "weight": [
+   2,
+   14
+  ],
+  "cluster": 1
+ },
+ "Game Server Engineer": {
+  "weight": [
+   2,
+   14
+  ],
+  "cluster": 1
+ },
+ "7f854636-4c8e-11e8-89a6-641eafe1cf00": {
+  "weight": [
+   2,
+   18
+  ],
+  "cluster": 1
+ },
+ "Mobile Developer at Creatubbles": {
+  "weight": [
+   2,
+   18
+  ],
+  "cluster": 1
+ },
+ "d4ce5b1a-4c8d-11e8-8316-de2ea6887ec8": {
+  "weight": [
+   5,
+   13
+  ],
+  "cluster": 1
+ },
+ "Back-end Developer at Creatubbles": {
+  "weight": [
+   5,
+   13
+  ],
+  "cluster": 1
+ },
+ "3e405d78-1b29-11e8-88c9-b4b578163b5c": {
+  "weight": [
+   0,
+   25
+  ],
+  "cluster": 1
+ },
+ "Senior Mobile Unity/ C# Developer": {
+  "weight": [
+   0,
+   25
+  ],
+  "cluster": 1
+ },
+ "fb6a544e-1b29-11e8-8062-e14cc69ae428": {
+  "weight": [
+   1,
+   31
+  ],
+  "cluster": 1
+ },
+ "Java Software Developer for Marketing": {
+  "weight": [
+   1,
+   31
+  ],
+  "cluster": 1
+ },
+ "f0204a80-4c57-11e8-953f-45c6f7e56dd0": {
+  "weight": [
+   0,
+   14
+  ],
+  "cluster": 1
+ },
+ "DevOps Engineer": {
+  "weight": [
+   0,
+   14
+  ],
+  "cluster": 1
+ },
+ "287b3c52-4a80-11e8-95d7-60a5a19c6c42": {
+  "weight": [
+   1,
+   6
+  ],
+  "cluster": 1
+ },
+ "sr. rails & front end developer ": {
+  "weight": [
+   1,
+   6
+  ],
+  "cluster": 1
+ },
+ "2782ebb6-4a75-11e8-9ebb-47d33cbed1ee": {
+  "weight": [
+   1,
+   17
+  ],
+  "cluster": 1
+ },
+ "Senior Software Engineer": {
+  "weight": [
+   10,
+   9
+  ],
+  "cluster": 0
+ },
+ "d37afd36-4a67-11e8-9114-574d811607c3": {
+  "weight": [
+   10,
+   9
+  ],
+  "cluster": 0
+ },
+ "cd806b64-4a21-11e8-9e08-652c5e9ffe1f": {
+  "weight": [
+   1,
+   24
+  ],
+  "cluster": 1
+ },
+ "Java Systems Engineer": {
+  "weight": [
+   1,
+   24
+  ],
+  "cluster": 1
+ },
+ "f9de27fc-49f2-11e8-8e67-bca1a68363e5": {
+  "weight": [
+   1,
+   12
+  ],
+  "cluster": 1
+ },
+ "Site Reliability Engineer": {
+  "weight": [
+   2,
+   2
+  ],
+  "cluster": 0
+ },
+ "0c378362-49b2-11e8-89d0-6340ff903843": {
+  "weight": [
+   0,
+   7
+  ],
+  "cluster": 1
+ },
+ "Software Engineer": {
+  "weight": [
+   2,
+   36
+  ],
+  "cluster": 1
+ },
+ "ad6e9774-4977-11e8-808a-edb2ba4acd39": {
+  "weight": [
+   18,
+   28
+  ],
+  "cluster": 1
+ },
+ "Senior UI Software Engineer, Core Technology Group": {
+  "weight": [
+   18,
+   28
+  ],
+  "cluster": 1
+ },
+ "a9e2d160-4977-11e8-8e7c-9d7c584925f8": {
+  "weight": [
+   16,
+   29
+  ],
+  "cluster": 1
+ },
+ "Principal User Experience Designer": {
+  "weight": [
+   11,
+   24
+  ],
+  "cluster": 1
+ },
+ "a6797222-4977-11e8-88ae-c942baa6c401": {
+  "weight": [
+   9,
+   18
+  ],
+  "cluster": 1
+ },
+ "Senior DevOps Engineer": {
+  "weight": [
+   9,
+   18
+  ],
+  "cluster": 1
+ },
+ "a322bd0e-4977-11e8-82a2-f8413ac78eba": {
+  "weight": [
+   13,
+   43
+  ],
+  "cluster": 1
+ },
+ "Senior Software Engineer, Senior Software Engineer, Informatica Cloud Service": {
+  "weight": [
+   13,
+   43
+  ],
+  "cluster": 1
+ },
+ "9f891a9e-4977-11e8-9f66-9072f030ce32": {
+  "weight": [
+   11,
+   34
+  ],
+  "cluster": 1
+ },
+ "Principal Front End Engineer, Informatica Cloud Service": {
+  "weight": [
+   11,
+   34
+  ],
+  "cluster": 1
+ },
+ "9c016b88-4977-11e8-877b-11c4ecdc8f84": {
+  "weight": [
+   23,
+   14
+  ],
+  "cluster": 0
+ },
+ "Senior Product Manager, Big Data": {
+  "weight": [
+   23,
+   14
+  ],
+  "cluster": 0
+ },
+ "97786436-4977-11e8-8fe4-cb6755acd02c": {
+  "weight": [
+   8,
+   22
+  ],
+  "cluster": 1
+ },
+ "Senior Devops Engineer, Informatica Cloud Operations": {
+  "weight": [
+   8,
+   22
+  ],
+  "cluster": 1
+ },
+ "9466830e-4977-11e8-9583-d87ccdb8d62b": {
+  "weight": [
+   11,
+   24
+  ],
+  "cluster": 1
+ },
+ "9086d6d0-4977-11e8-8145-1c846733c22f": {
+  "weight": [
+   16,
+   18
+  ],
+  "cluster": 1
+ },
+ "Senior Software Engineer, Metadata Foundation Team": {
+  "weight": [
+   16,
+   18
+  ],
+  "cluster": 1
+ },
+ "8caa6e1e-4977-11e8-9cb3-2c79226a2c46": {
+  "weight": [
+   4,
+   9
+  ],
+  "cluster": 1
+ },
+ "Cloud Product Operations Software Engineer": {
+  "weight": [
+   4,
+   9
+  ],
+  "cluster": 1
+ },
+ "85200708-4977-11e8-92ee-e4b23655e198": {
+  "weight": [
+   2,
+   36
+  ],
+  "cluster": 1
+ },
+ "950b165c-496e-11e8-8291-f5e6e2589515": {
+  "weight": [
+   3,
+   17
+  ],
+  "cluster": 1
+ },
+ "Test Engineer": {
+  "weight": [
+   3,
+   17
+  ],
+  "cluster": 1
+ },
+ "91b7623a-496e-11e8-923b-adce64dba9ba": {
+  "weight": [
+   5,
+   6
+  ],
+  "cluster": 1
+ },
+ "Server Side Software Engineer, Apple Media Products": {
+  "weight": [
+   5,
+   6
+  ],
+  "cluster": 1
+ },
+ "8e2eaf6a-496e-11e8-8554-1b960f76d2e2": {
+  "weight": [
+   2,
+   6
+  ],
+  "cluster": 1
+ },
+ "Sr. Video Search Engineer ": {
+  "weight": [
+   2,
+   6
+  ],
+  "cluster": 1
+ },
+ "89450de6-496e-11e8-8bd7-29d1c07e8855": {
+  "weight": [
+   1,
+   9
+  ],
+  "cluster": 1
+ },
+ "Sr. Software Engineer, Core Services, Apple Media Products": {
+  "weight": [
+   1,
+   9
+  ],
+  "cluster": 1
+ },
+ "80419840-496e-11e8-8be1-8e491a6480fb": {
+  "weight": [
+   0,
+   3
+  ],
+  "cluster": 1
+ },
+ "Software Engineer, Security": {
+  "weight": [
+   0,
+   3
+  ],
+  "cluster": 1
+ },
+ "6860c742-4968-11e8-92ff-224f2e12c7e2": {
+  "weight": [
+   0,
+   19
+  ],
+  "cluster": 1
+ },
+ "Software Developer": {
+  "weight": [
+   0,
+   19
+  ],
+  "cluster": 1
+ },
+ "254cffc8-4965-11e8-8691-2f098e1e702d": {
+  "weight": [
+   2,
+   2
+  ],
+  "cluster": 0
+ },
+ "7ab6bac2-4964-11e8-9649-30ee0d9c61f2": {
+  "weight": [
+   1,
+   9
+  ],
+  "cluster": 1
+ },
+ "Security Engineer": {
+  "weight": [
+   1,
+   9
+  ],
+  "cluster": 1
+ },
+ "cluster 0": [
+  {
+   "id": "a10e0222-9701-11e7-99b5-3e0083d090e0",
+   "title": "Data Scientist"
+  },
+  {
+   "id": "f127a8ca-fdd3-11e6-81a4-fe9da905eb01",
+   "title": "Data Scientist"
+  },
+  {
+   "id": "c20a142a-4dfe-11e8-8bba-6e4e388640ae",
+   "title": "InnoMaster IT- WiSe 2018"
+  },
+  {
+   "id": "776c9e60-4ca0-11e8-9860-71a43ad1cbdd",
+   "title": "Business Intelligence Data Engineer "
+  },
+  {
+   "id": "d37afd36-4a67-11e8-9114-574d811607c3",
+   "title": "Senior Software Engineer"
+  },
+  {
+   "id": "9c016b88-4977-11e8-877b-11c4ecdc8f84",
+   "title": "Senior Product Manager, Big Data"
+  },
+  {
+   "id": "254cffc8-4965-11e8-8691-2f098e1e702d",
+   "title": "Site Reliability Engineer"
+  }
+ ],
+ "cluster 1": [
+  {
+   "id": "f8d4627a-7830-11e7-9e78-d9b1c842a413",
+   "title": "Linux System Administrator / System Engineer"
+  },
+  {
+   "id": "52a4e146-4e3f-11e8-8ef6-3fb76ee048bf",
+   "title": "Developer"
+  },
+  {
+   "id": "fa2381ba-fdd3-11e6-82c5-5b93b6d5fc76",
+   "title": "DevOps Engineer | Site Reliability Engineer"
+  },
+  {
+   "id": "cd788a5e-97cd-11e7-81ed-ae7d47995799",
+   "title": "Senior Front End Developer"
+  },
+  {
+   "id": "db9ef0f4-bfe7-11e7-98d4-d371577aa6c0",
+   "title": "Full Stack Developer"
+  },
+  {
+   "id": "15a1bd48-10da-11e8-8dd7-7617cf12b322",
+   "title": "Full Stack Developer"
+  },
+  {
+   "id": "40a95a22-4e20-11e8-9701-1b7423468ecc",
+   "title": "Senior iCloud Software Engineer"
+  },
+  {
+   "id": "3f1f876c-4e20-11e8-94e4-aed74a007765",
+   "title": "Senior Software Engineer, iTunes Editorial Tools"
+  },
+  {
+   "id": "3ca6476e-4e20-11e8-9201-52efa277c307",
+   "title": "Senior iCloud Software Engineer"
+  },
+  {
+   "id": "1860dbd2-4e0a-11e8-824d-e9573fe33079",
+   "title": "Java and C/C# Developer, Trading Systems"
+  },
+  {
+   "id": "dab58272-4de3-11e8-9545-092ffb7f19b9",
+   "title": "Front End Engineer"
+  },
+  {
+   "id": "409714aa-4de1-11e8-8546-20a952dfe08d",
+   "title": "Senior C++ Developer"
+  },
+  {
+   "id": "428e51e4-4ddf-11e8-8a07-67eb144e5584",
+   "title": "Fullstack JavaScript developer"
+  },
+  {
+   "id": "f711f746-4ddb-11e8-8ba9-0bea8d2448e9",
+   "title": "C#/C++ Developer"
+  },
+  {
+   "id": "949e5a7a-4d57-11e8-9178-6a21e83a3735",
+   "title": "Engineering Manager, Vault"
+  },
+  {
+   "id": "eea00520-3487-11e8-9403-ba1a7cdf47b1",
+   "title": "Game Server Engineer"
+  },
+  {
+   "id": "7f854636-4c8e-11e8-89a6-641eafe1cf00",
+   "title": "Mobile Developer at Creatubbles"
+  },
+  {
+   "id": "d4ce5b1a-4c8d-11e8-8316-de2ea6887ec8",
+   "title": "Back-end Developer at Creatubbles"
+  },
+  {
+   "id": "3e405d78-1b29-11e8-88c9-b4b578163b5c",
+   "title": "Senior Mobile Unity/ C# Developer"
+  },
+  {
+   "id": "fb6a544e-1b29-11e8-8062-e14cc69ae428",
+   "title": "Java Software Developer for Marketing"
+  },
+  {
+   "id": "f0204a80-4c57-11e8-953f-45c6f7e56dd0",
+   "title": "DevOps Engineer"
+  },
+  {
+   "id": "287b3c52-4a80-11e8-95d7-60a5a19c6c42",
+   "title": "sr. rails & front end developer "
+  },
+  {
+   "id": "2782ebb6-4a75-11e8-9ebb-47d33cbed1ee",
+   "title": "Senior Software Engineer"
+  },
+  {
+   "id": "cd806b64-4a21-11e8-9e08-652c5e9ffe1f",
+   "title": "Java Systems Engineer"
+  },
+  {
+   "id": "f9de27fc-49f2-11e8-8e67-bca1a68363e5",
+   "title": "Site Reliability Engineer"
+  },
+  {
+   "id": "0c378362-49b2-11e8-89d0-6340ff903843",
+   "title": "Software Engineer"
+  },
+  {
+   "id": "ad6e9774-4977-11e8-808a-edb2ba4acd39",
+   "title": "Senior UI Software Engineer, Core Technology Group"
+  },
+  {
+   "id": "a9e2d160-4977-11e8-8e7c-9d7c584925f8",
+   "title": "Principal User Experience Designer"
+  },
+  {
+   "id": "a6797222-4977-11e8-88ae-c942baa6c401",
+   "title": "Senior DevOps Engineer"
+  },
+  {
+   "id": "a322bd0e-4977-11e8-82a2-f8413ac78eba",
+   "title": "Senior Software Engineer, Senior Software Engineer, Informatica Cloud Service"
+  },
+  {
+   "id": "9f891a9e-4977-11e8-9f66-9072f030ce32",
+   "title": "Principal Front End Engineer, Informatica Cloud Service"
+  },
+  {
+   "id": "97786436-4977-11e8-8fe4-cb6755acd02c",
+   "title": "Senior Devops Engineer, Informatica Cloud Operations"
+  },
+  {
+   "id": "9466830e-4977-11e8-9583-d87ccdb8d62b",
+   "title": "Principal User Experience Designer"
+  },
+  {
+   "id": "9086d6d0-4977-11e8-8145-1c846733c22f",
+   "title": "Senior Software Engineer, Metadata Foundation Team"
+  },
+  {
+   "id": "8caa6e1e-4977-11e8-9cb3-2c79226a2c46",
+   "title": "Cloud Product Operations Software Engineer"
+  },
+  {
+   "id": "85200708-4977-11e8-92ee-e4b23655e198",
+   "title": "Software Engineer"
+  },
+  {
+   "id": "950b165c-496e-11e8-8291-f5e6e2589515",
+   "title": "Test Engineer"
+  },
+  {
+   "id": "91b7623a-496e-11e8-923b-adce64dba9ba",
+   "title": "Server Side Software Engineer, Apple Media Products"
+  },
+  {
+   "id": "8e2eaf6a-496e-11e8-8554-1b960f76d2e2",
+   "title": "Sr. Video Search Engineer "
+  },
+  {
+   "id": "89450de6-496e-11e8-8bd7-29d1c07e8855",
+   "title": "Sr. Software Engineer, Core Services, Apple Media Products"
+  },
+  {
+   "id": "80419840-496e-11e8-8be1-8e491a6480fb",
+   "title": "Software Engineer, Security"
+  },
+  {
+   "id": "6860c742-4968-11e8-92ff-224f2e12c7e2",
+   "title": "Software Developer"
+  },
+  {
+   "id": "7ab6bac2-4964-11e8-9649-30ee0d9c61f2",
+   "title": "Security Engineer"
+  }
+ ],
+ "cluster 0 keys": {
+  "data science": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "data": {
+   "boolean": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "weight": 6
+  },
+  "great data": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "data management": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "big data": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "analytics": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "machine learning": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "python": {
+   "boolean": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "weight": 4
+  },
+  "visualization": {
+   "boolean": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight": 2
+  },
+  "deep leaarning": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "data mining": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  }
+ },
+ "cluster 1 keys": {
+  "agile": {
+   "boolean": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 17
+  },
+  "c#": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight": 5
+  },
+  "c++": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight": 9
+  },
+  "collaborate": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 8
+  },
+  "team": {
+   "boolean": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight": 38
+  },
+  "code": {
+   "boolean": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "weight": 21
+  },
+  "java": {
+   "boolean": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight": 23
+  },
+  ".net": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 0
+  },
+  "mobile": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight": 7
+  },
+  "software": {
+   "boolean": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight": 29
+  },
+  "solution": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 10
+  },
+  "solutions": {
+   "boolean": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight": 17
+  },
+  "projects": {
+   "boolean": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight": 10
+  },
+  "sql": {
+   "boolean": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight": 6
+  },
+  "development": {
+   "boolean": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight": 31
+  },
+  "design": {
+   "boolean": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight": 25
+  },
+  "web": {
+   "boolean": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight": 17
+  },
+  "testing": {
+   "boolean": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "weight": 14
+  }
+ }
+}
