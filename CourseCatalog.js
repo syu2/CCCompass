@@ -28,6 +28,7 @@ course.loadCollapsible = function(){
 
   // smallID.forEach(function(id){
   CourseID.forEach(function(id){
+    console.log(CourseID.length);
     
       var data = Course["Course " + id];
 
