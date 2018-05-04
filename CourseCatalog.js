@@ -27,7 +27,8 @@ course.loadCollapsible = function(){
   // var smallID = CourseID.slice(0,10);
 
   // smallID.forEach(function(id){
-  CourseID.forEach(function(id){    
+  CourseID.forEach(function(id){
+    
       var data = Course["Course " + id];
 
         data.forEach(function( a ){
@@ -128,7 +129,7 @@ course.Search = function(){
 
   var title   = document.getElementsByClassName("collapsible")
   var length  = title.length;
-  var des     = document.getElementsByTagName("p");
+  var des    = document.getElementsByClassName("content");
 
   var check = function(keyArray, textBlob){
     return keyArray.every( key => textBlob.innerHTML.toUpperCase().indexOf(key) > -1)
@@ -169,10 +170,12 @@ course.Search = function(){
     }else if( hasKey === true && hasLogo === true ) {
         //show
         title[i].style.display = "";
+        des[i].style.display = "";
         countTitles = countTitles + 1;
     } else {
         //hide
         title[i].style.display = "none";
+        des[i].style.display = "none";
     }
   }
   console.log('number of courses listed: ' + countTitles);
