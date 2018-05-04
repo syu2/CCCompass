@@ -26,8 +26,8 @@ course.loadCollapsible = function(){
 
   var smallID = CourseID.slice(0,10);
 
-  smallID.forEach(function(id){
-  //ID.forEach(function(a){
+  // smallID.forEach(function(id){
+  CourseID.forEach(function(id){
     
       var data = Course["Course " + id];
 
