@@ -24,7 +24,7 @@ jobs.githubData = function(){
 
     fs.writeFileSync('Jobs/data.json', json, (error) => { /* handle error */ })
 }
-//jobs.githubData()
+// jobs.githubData()
 
 jobs.UniqueElements = function(array){
 
@@ -84,8 +84,9 @@ jobs.reformatGithubData = function(){
 
     reformat['allJobIDs'] = allJobIDs;
 
-    fs.writeFileSync('Jobs/reformatData.json', JSON.stringify(reformat, null, 2), (error) => {/* handle error */})
+    // fs.writeFileSync('Jobs/reformatData.json', 'var reformatData = ' + JSON.stringify(reformat, null, 2), (error) => {/* handle error */})
 
+    return reformat;
     //reformat = {
     //         jobID:   {'title': ---, 'description': ---},
     //         jobID:   {'title': ---, 'description': ---},
@@ -99,7 +100,8 @@ jobs.reformatGithubData = function(){
 //input:jobID, output:array of keywords from job des
 jobs.keyFromDes = function(jobID){
 
-    var data = JSON.parse(fs.readFileSync('Jobs/reformatData.json'));
+    // var data = JSON.parse(fs.readFileSync('Jobs/reformatData.json'));
+    var data = jobs.reformatGithubData();
 
     var des  = data[jobID]['description'];
         des  = des.split('.').filter(function(a){return a != '' && a!= ' '})
@@ -248,7 +250,8 @@ jobIDs = [
 jobs.Cluster = function(jobIDs, centroidKey){
 
     var weights = {};
-    var data = JSON.parse(fs.readFileSync('Jobs/reformatData.json'));
+    // var data = JSON.parse(fs.readFileSync('Jobs/reformatData.json'));
+    var data = jobs.reformatGithubData();
 
     jobIDs.forEach(function(id){
         var weight = [];
@@ -258,7 +261,7 @@ jobs.Cluster = function(jobIDs, centroidKey){
         weights[id] = {};
         weights[id]['weight'] = weight;
 
-        var title = data[id]['title'];
+        var title = data[id]['title'].toUpperCase();
         weights[title] = {};
         weights[title]['weight'] = weight;
     })
@@ -266,17 +269,20 @@ jobs.Cluster = function(jobIDs, centroidKey){
     centroidKey.forEach(function(a){
         var index = 'cluster ' + centroidKey.indexOf(a);
         weights[index] = [];
-        // weights[index]['keyWords'] = a;
     })
 
     jobIDs.forEach(function(id){
         var max = math.max(weights[id]['weight']);
         var index = weights[id]['weight'].indexOf(max);
 
-        var title = data[id]['title'];
+        var title = data[id]['title'].toUpperCase();
         weights[title]['cluster'] = index;
-
         weights[id]['cluster'] = index;
+
+        var clusterKeys = jobs.CommonKeyTwo(id, centroidKey[index]);
+        clusterKeys = jobs.UniqueElements(clusterKeys)
+        weights[title]['clusterKeys'] = clusterKeys;
+
         weights['cluster ' + index].push( {'id': id, 'title': data[id]['title']} );
     })
 
@@ -308,7 +314,7 @@ jobs.Cluster = function(jobIDs, centroidKey){
     })
 
     // console.log(weights);
-    fs.writeFileSync('Jobs/cluster.json', JSON.stringify(weights, null, 1 ), (error) => {/* handle error */})
+    fs.writeFileSync('Jobs/cluster.js', 'var cluster = ' + JSON.stringify(weights, null, 1 ), (error) => {/* handle error */})
 }
 
 jobs.Cluster(jobIDs, [KeyWords.DataScience, KeyWords.SoftwareEngineer])

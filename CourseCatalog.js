@@ -24,10 +24,10 @@ var course = {};
 //load collapsible data
 course.loadCollapsible = function(){
 
-  // var smallID = CourseID.slice(0,10);
+  var smallID = CourseID.slice(0,10);
 
-  // smallID.forEach(function(id){
-  CourseID.forEach(function(id){
+  smallID.forEach(function(id){
+  // CourseID.forEach(function(id){
     
       var data = Course["Course " + id];
 
@@ -49,7 +49,7 @@ course.loadCollapsible = function(){
           return prev + imgTag;
         }, '')
 
-            spanTagimg   = '<span class = "logoContainer">' + spanTagimg + '</span>';
+        spanTagimg   = '<span class = "logoContainer">' + spanTagimg + '</span>';
 
         var spanTagtxt   = '<span style = "float:right; font-weight:bold">' + units + ' | ' + UG + '</span>';
 
@@ -117,7 +117,21 @@ course.Collapsible = function(){
 
 };
 
+//function to check if searched word is in title/description
+var check = function(keyArray, textBlob){
+  return keyArray.every( key => textBlob.innerHTML.toUpperCase().indexOf(key) > -1)
+}
 
+//testBlob contains one of keyArray elements?
+var jobCheck = function(keyArray, textBlob){
+  var tf = [];
+  keyArray.forEach( key => tf.push( textBlob.innerHTML.toUpperCase().indexOf(key) > -1 ))
+  if(tf.includes(true)){
+      return true;
+  }else{
+      return false;
+  } 
+}
 
 //search button
 course.Search = function(){
@@ -126,15 +140,11 @@ course.Search = function(){
   console.log("(clicked SEARCH) input: " + input);
   
   var keyword = input.split(' ');
-
   var title   = document.getElementsByClassName("collapsible")
   var length  = title.length;
   var des    = document.getElementsByClassName("content");
 
-  var check = function(keyArray, textBlob){
-    return keyArray.every( key => textBlob.innerHTML.toUpperCase().indexOf(key) > -1)
-  }
-
+  //find all active filter buttons
   var active= []; 
   $("button#term.active").each(function(index){
     if($(this).html().includes("img")){
@@ -145,10 +155,22 @@ course.Search = function(){
   })
   console.log("(clicked SEARCH) active: " + active);
  
+  var jobinput = document.getElementById("inputJob").value.toUpperCase();
+  var jobKeys = [];
+
+  var jobinput = document.getElementById("inputJob").value.toUpperCase();
+  if(cluster[jobinput] != undefined){
+    jobTree(jobinput, 2)['children'][1]['children'].forEach(a => jobKeys.push(a['name'].toUpperCase()));
+  }else{
+    jobKeys = [];
+  }
+
+  //for all course collapsibles
   var countTitles = 0;
   for (var i = 2; i < title.length; i++) {
-    
+
     var hasKey = (check(keyword, title[i]) || check(keyword, des[i]));
+    var hasjobKey = (jobCheck(jobKeys, title[i]) || jobCheck(jobKeys, des[i]));
     var hasLogo = active.reduce(function(prev,curr){
       if(curr === undefined){
         console.log(curr.innerHTML)
@@ -163,16 +185,21 @@ course.Search = function(){
       return prev && curr;
     }, true);
 
-
-    if(input = '' && hasLogo === true){
+    if(input === "" && hasLogo === true && jobKeys.length === 0){
       title[i].style.display = "";
+      des[i].style.display = "";
       countTitles = countTitles + 1;
-    }else if( hasKey === true && hasLogo === true ) {
+    }else if( hasKey === true && hasLogo === true && hasjobKey === true) {
         //show
         title[i].style.display = "";
         des[i].style.display = "";
         countTitles = countTitles + 1;
-    } else {
+    }else if( hasKey === true && hasLogo === true && jobKeys.length === 0) {
+      //show
+      title[i].style.display = "";
+      des[i].style.display = "";
+      countTitles = countTitles + 1;
+  }else {
         //hide
         title[i].style.display = "none";
         des[i].style.display = "none";
@@ -203,10 +230,6 @@ course.Filter = function(){
   var des    = document.getElementsByClassName("content");
   var length = title.length;
 
-  var check = function(keyArray, textBlob){
-    return keyArray.every( key => textBlob.innerHTML.toUpperCase().indexOf(key) > -1)
-  }
-
   $("button#term").click( function( ){ 
     //if not activated yet
     if($(this).hasClass("active") === false ){
@@ -228,6 +251,15 @@ course.Filter = function(){
     })
     console.log('(clicked filter button): ' + active)
 
+    var jobinput = document.getElementById("inputJob").value.toUpperCase();
+    var jobKeys = [];
+    if(cluster[jobinput] != undefined){
+      jobTree(jobinput, 2)['children'][1]['children'].forEach(a => jobKeys.push(a['name'].toUpperCase()));
+    }else{
+      jobKeys = [];
+    }
+    console.log('jobinput: ' + jobinput)
+
     //if match search key word and active button
     var countTitles = 0;
     for(var i = 2; i < length; i++){
@@ -235,6 +267,8 @@ course.Filter = function(){
       var input   = document.getElementById("input").value.toUpperCase();
       var keyword = input.split(' ');
 
+      var hasKey = (check(keyword, title[i]) || check(keyword, des[i]));
+      var hasjobKey = (jobCheck(jobKeys, title[i]) || jobCheck(jobKeys, des[i]));
       var truefalse = active.reduce(function(prev,curr){
         if(curr.includes("Logos")){
           //logo term filter
@@ -246,16 +280,26 @@ course.Filter = function(){
         return prev && curr;
       }, true);
 
-      if(truefalse === true && (check(keyword, title[i]) || check(keyword, des[i])) === true){
+      if(truefalse === true && input === "" && jobKeys.length === 0){
         title[i].style.display = "";
         des[i].style.display = "";
         countTitles = countTitles + 1
+      }else if( hasKey === true && truefalse === true && hasjobKey === true) {
+        //show
+        title[i].style.display = "";
+        des[i].style.display = "";
+        countTitles = countTitles + 1;
+      }else if( hasKey === true && truefalse === true && jobKeys.length === 0) {
+        //show
+        title[i].style.display = "";
+        des[i].style.display = "";
+        countTitles = countTitles + 1;
       }else{
         title[i].style.display = "none";
         des[i].style.display = "none";
       }
 
-    }
+        }
     console.log('number of courses listed: ' + countTitles)
     console.log('=================================================================');
   })

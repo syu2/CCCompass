@@ -19,6 +19,17 @@ var treeData = {};
 
 //====================================================================================
 
+var UniqueElements = function(array){
+
+    var unique = [array[0]];
+    for(i = 0; i < array.length; i++){
+        if(unique.includes(array[i]) === false){
+            unique.push(array[i]);
+        };
+    };
+    return unique;
+};
+
 
 var jobTree = function(jobtitle, numberOfClusters){
 
@@ -30,12 +41,11 @@ var jobTree = function(jobtitle, numberOfClusters){
             //"children": []
         },
         { "name": "Associated Keywords",
-            "children": [{'name': 'related key'},
-                        {'name': 'related key'}]
+            //"children": []
         }]
         };
 
-    //load data: cluster.json
+    //load data: cluster.js
     var data = cluster;
 
     //cluster ids
@@ -52,9 +62,100 @@ var jobTree = function(jobtitle, numberOfClusters){
     })
     treeData['children'][0]['children'] = relatedJobs;
 
+    var relatedKeys = [];
+    var keys = [];
+    data[jobtitle]['clusterKeys'].forEach(function(key){
+        relatedKeys.push({'name': key});
+        keys.push(key);
+    })
+    treeData['children'][1]['children'] = relatedKeys;
 
+    return treeData;
 }
 
+
+var jobKeyFilter = function(jobtitle){
+
+    console.log('(clicked JobSearch) input: ' + jobtitle)
+
+    
+    var input   = document.getElementById("input").value.toUpperCase();
+    var keyword = input.split(' ');
+    
+
+    //get all collapsibles
+    var title   = document.getElementsByClassName("collapsible")
+    var length  = title.length;
+    var des    = document.getElementsByClassName("content");
+  
+    //keyword included in text?
+    var check = function(keyArray, textBlob){
+      return keyArray.every( key => textBlob.innerHTML.toUpperCase().indexOf(key) > -1)
+    }
+    var jobCheck = function(keyArray, textBlob){
+        var tf = [];
+        keyArray.forEach( key => tf.push( textBlob.innerHTML.toUpperCase().indexOf(key) > -1 ))
+        if(tf.includes(true)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+  
+    //identify all active filter buttons
+    var active= []; 
+    $("button#term.active").each(function(index){
+      if($(this).html().includes("img")){
+        active.push($("img", this).attr("src"));
+      }else{
+        active.push($(this).text());
+      }
+    })
+
+    var jobKeys = [];
+    cluster[jobtitle]['clusterKeys'].forEach(a => jobKeys.push(a.toUpperCase()))
+
+    var countTitles = 0;
+    for (var i = 2; i < title.length; i++) {
+
+        var hasKey = (check(keyword, title[i]) || check(keyword, des[i]));
+        var hasjobKey = (jobCheck(jobKeys, title[i]) || jobCheck(jobKeys, des[i]));
+
+        var hasLogo = active.reduce(function(prev,curr){
+        if(curr === undefined){
+            console.log(curr.innerHTML)
+        }
+        if(curr.includes("Logos")){
+            //logo term filter
+            curr = title[i].innerHTML.includes(curr);
+        }else{
+            //UG
+            curr = curr.includes(title[i].innerHTML.split(' | ')[1][0]);
+        }
+        return prev && curr;
+        }, true);
+
+
+        if(input = '' && hasLogo === true && jobKeys === [null]){
+            title[i].style.display = "";
+            countTitles = countTitles + 1;
+          }else if( hasKey === true && hasLogo === true && hasjobKey === true) {
+              //show
+              title[i].style.display = "";
+              des[i].style.display = "";
+              countTitles = countTitles + 1;
+          } else {
+              //hide
+              title[i].style.display = "none";
+              des[i].style.display = "none";
+          }
+
+    }
+    console.log('number of courses listed: ' + countTitles);
+    console.log('=================================================================');
+
+
+}
 
 //====================================================================================
 

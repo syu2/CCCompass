@@ -54,12 +54,14 @@ get.CourseMainIDs = function(){
 
     var json = JSON.stringify(cleanIDs, null, 2);
 
-    fs.writeFileSync('CoursesJson/MainCourseID.json', json, (error) => { /* handle error */ });
+    fs.writeFileSync('CoursesJson/MainCourseID.js', "var CourseID =" + json, (error) => { /* handle error */ });
+
+    // fs.writeFileSync('CoursesJson/MainCourseID.json', json, (error) => { /* handle error */ });
 
     return IDs;
 };
 //================================================================================================
-
+// get.CourseMainIDs();
 
 
 //Course [MainID] url >> CourseMainID.html
@@ -189,7 +191,7 @@ get.CourseIDs = function(){
     var json = JSON.stringify(IDs, null, 2);
 
     
-    fs.writeFileSync('CoursesJson/CourseID.json', json, (error) => { /* handle error */ });
+    fs.writeFileSync('CoursesJson/CourseID.js', json, (error) => { /* handle error */ });
     return IDs;
 };
 //================================================================================================
@@ -370,12 +372,17 @@ get.CourseUnits = function(CourseID){
 
 
 //Course data summary
-get.CourseDataSummary = function(CourseID){
+get.CourseDataSummary = function(){
 
+    var CourseIDs = get.CourseIDs();
+
+    // var Data = JSON.parse(fs.readFileSync('CoursesJson/CourseData.js'));
+    var Data = {};
+
+    CourseIDs.forEach(function(CourseID){
 
     var length = get.CourseTitles(CourseID).length;
     var DataSummary = [];
-
         for(var j=0; j<length; j++){
             var Numb  = get.CourseNumbers(CourseID)[j];
             var Title = get.CourseTitles(CourseID)[j];
@@ -388,17 +395,23 @@ get.CourseDataSummary = function(CourseID){
         };
 
 
-    var Data = {};
     Data['Course ' + CourseID] = DataSummary;
+
+    })
     
-    //JSON.stringify(Data): messy long
-    //JSON.stringify(Data, null, 2): clean legible
+
     var json = JSON.stringify(Data, null, 2);
+    // return json
 
     //without (error) => { /* handle error */ } callback
     //(node:15236) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
-    fs.writeFile( 'CoursesJson/course' + CourseID + '.json', json, (error) => { /* handle error */ });
+    // fs.writeFile( 'CoursesJson/course' + CourseID + '.js', 'var Course' + CourseID + '=' + json, (error) => { /* handle error */ });
+    fs.writeFile( 'CoursesJson/CourseData.js', 'var Course = ' + json, (error) => { /* handle error */ });
+
 }
+get.CourseDataSummary()
+
+
 
 
 //run this to write json files
@@ -407,7 +420,7 @@ get.CourseDataSummary = function(CourseID){
 //     get.CourseDataSummary(index);
 // })
 //================================================================================================
-get.CourseDataSummary('2a')
+// get.CourseDataSummary('2a')
 
 
 

@@ -8,11 +8,12 @@
     <!-- Tree D3 -->
     <link rel="stylesheet" href="Tree.css">
     <script src = "Tree.js" ></script>
-    <!-- Course Data -->
+    <!-- Data -->
     <script src = "CoursesJson/CourseData.js" ></script>
     <script src = "CoursesJson/CourseID.js" ></script>
     <script src = "jobData.js" ></script>
     <script src = "Jobs/cluster.js" ></script>
+    <script src = "Jobs/reformatData.js" ></script>
     <script src = "CoursesJson/CourseID.js" ></script>
 
     <!-- jquery -->
@@ -56,6 +57,7 @@
       <p></p>
     </div> 
     <br>
+    <!-- Job searcher -->
     <button id = "jobs" class = "collapsible"> COURSE CAREER COMPASS </button>
     <div id = "jobsresult" class= "content">
       <br>
@@ -85,8 +87,72 @@
   }
 
   var triggerTree = function(){
-    var input = document.getElementById("inputJob").value;
-    Tree(input);
+    var jobinput = document.getElementById("inputJob").value.toUpperCase();
+    if(cluster[jobinput] != undefined){
+      Tree(jobinput);
+      jobKeyFilter(jobinput);}
+    else{
+      $("svg").empty()
+      console.log('No such job available')
+      var input   = document.getElementById("input").value.toUpperCase();
+      
+      var keyword = input.split(' ');
+      var title   = document.getElementsByClassName("collapsible")
+      var length  = title.length;
+      var des    = document.getElementsByClassName("content");
+
+      //function to check if searched word is in title/description
+      var check = function(keyArray, textBlob){
+        return keyArray.every( key => textBlob.innerHTML.toUpperCase().indexOf(key) > -1)
+      }
+
+      //find all active filter buttons
+      var active= []; 
+      $("button#term.active").each(function(index){
+        if($(this).html().includes("img")){
+          active.push($("img", this).attr("src"));
+        }else{
+          active.push($(this).text());
+        }
+      })
+
+      //for all course collapsibles
+      var countTitles = 0;
+      for (var i = 2; i < title.length; i++) {
+
+        var hasKey = (check(keyword, title[i]) || check(keyword, des[i]));
+        var hasLogo = active.reduce(function(prev,curr){
+          if(curr === undefined){
+            console.log(curr.innerHTML)
+          }
+          if(curr.includes("Logos")){
+            //logo term filter
+            curr = title[i].innerHTML.includes(curr);
+          }else{
+            //UG
+            curr = curr.includes(title[i].innerHTML.split(' | ')[1][0]);
+          }
+          return prev && curr;
+        }, true);
+
+
+        if(input = '' && hasLogo === true){
+          title[i].style.display = "";
+          countTitles = countTitles + 1;
+        }else if( hasKey === true && hasLogo === true) {
+            //show
+            title[i].style.display = "";
+            des[i].style.display = "";
+            countTitles = countTitles + 1;
+        } else {
+            //hide
+            title[i].style.display = "none";
+            des[i].style.display = "none";
+        }
+      }
+        console.log('number of courses listed: ' + countTitles);
+        console.log('=================================================================');
+          }
   }
 
   var courseSearch = function(){
