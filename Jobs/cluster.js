@@ -6,12 +6,19 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Linux System Administrator / System Engineer": {
+ "LINUX SYSTEM ADMINISTRATOR / SYSTEM ENGINEER": {
   "weight": [
    1,
    7
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "solutions",
+   "java",
+   "development",
+   "code"
+  ]
  },
  "52a4e146-4e3f-11e8-8ef6-3fb76ee048bf": {
   "weight": [
@@ -20,12 +27,19 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Developer": {
+ "DEVELOPER": {
   "weight": [
    0,
    7
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "software",
+   "projects",
+   "web",
+   "development"
+  ]
  },
  "a10e0222-9701-11e7-99b5-3e0083d090e0": {
   "weight": [
@@ -34,12 +48,16 @@ var cluster = {
   ],
   "cluster": 0
  },
- "Data Scientist": {
+ "DATA SCIENTIST": {
   "weight": [
    12,
    5
   ],
-  "cluster": 0
+  "cluster": 0,
+  "clusterKeys": [
+   "data",
+   "python"
+  ]
  },
  "f127a8ca-fdd3-11e6-81a4-fe9da905eb01": {
   "weight": [
@@ -55,12 +73,21 @@ var cluster = {
   ],
   "cluster": 1
  },
- "DevOps Engineer | Site Reliability Engineer": {
+ "DEVOPS ENGINEER | SITE RELIABILITY ENGINEER": {
   "weight": [
    2,
    8
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "code",
+   "design",
+   "software",
+   "solutions",
+   "development",
+   "java"
+  ]
  },
  "cd788a5e-97cd-11e7-81ed-ae7d47995799": {
   "weight": [
@@ -69,12 +96,21 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Front End Developer": {
+ "SENIOR FRONT END DEVELOPER": {
   "weight": [
    1,
    13
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "development",
+   "agile",
+   "code",
+   "testing",
+   "design",
+   "web"
+  ]
  },
  "db9ef0f4-bfe7-11e7-98d4-d371577aa6c0": {
   "weight": [
@@ -83,12 +119,22 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Full Stack Developer": {
+ "FULL STACK DEVELOPER": {
   "weight": [
    3,
    14
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "web",
+   "solution",
+   "collaborate",
+   "solutions",
+   "development",
+   "testing",
+   "java",
+   "c++"
+  ]
  },
  "15a1bd48-10da-11e8-8dd7-7617cf12b322": {
   "weight": [
@@ -104,12 +150,24 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior iCloud Software Engineer": {
+ "SENIOR ICLOUD SOFTWARE ENGINEER": {
   "weight": [
    0,
    13
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "web",
+   "sql",
+   "design",
+   "team",
+   "projects",
+   "java",
+   "c++",
+   "software",
+   "development",
+   "collaborate"
+  ]
  },
  "3f1f876c-4e20-11e8-94e4-aed74a007765": {
   "weight": [
@@ -118,12 +176,16 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Software Engineer, iTunes Editorial Tools": {
+ "SENIOR SOFTWARE ENGINEER, ITUNES EDITORIAL TOOLS": {
   "weight": [
    1,
    2
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "software"
+  ]
  },
  "3ca6476e-4e20-11e8-9201-52efa277c307": {
   "weight": [
@@ -139,12 +201,16 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Java and C/C# Developer, Trading Systems": {
+ "JAVA AND C/C# DEVELOPER, TRADING SYSTEMS": {
   "weight": [
    1,
    3
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "java"
+  ]
  },
  "c20a142a-4dfe-11e8-8bba-6e4e388640ae": {
   "weight": [
@@ -153,12 +219,15 @@ var cluster = {
   ],
   "cluster": 0
  },
- "InnoMaster IT- WiSe 2018": {
+ "INNOMASTER IT- WISE 2018": {
   "weight": [
    0,
    0
   ],
-  "cluster": 0
+  "cluster": 0,
+  "clusterKeys": [
+   null
+  ]
  },
  "dab58272-4de3-11e8-9545-092ffb7f19b9": {
   "weight": [
@@ -167,12 +236,19 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Front End Engineer": {
+ "FRONT END ENGINEER": {
   "weight": [
    2,
    7
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "development",
+   "solutions",
+   "team",
+   "web",
+   "solution"
+  ]
  },
  "409714aa-4de1-11e8-8546-20a952dfe08d": {
   "weight": [
@@ -181,12 +257,18 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior C++ Developer": {
+ "SENIOR C++ DEVELOPER": {
   "weight": [
    0,
    18
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "c++",
+   "team",
+   "agile",
+   "software"
+  ]
  },
  "428e51e4-4ddf-11e8-8a07-67eb144e5584": {
   "weight": [
@@ -195,12 +277,20 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Fullstack JavaScript developer": {
+ "FULLSTACK JAVASCRIPT DEVELOPER": {
   "weight": [
    2,
    12
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "development",
+   "sql",
+   "agile",
+   "code",
+   "solutions"
+  ]
  },
  "f711f746-4ddb-11e8-8ba9-0bea8d2448e9": {
   "weight": [
@@ -209,12 +299,24 @@ var cluster = {
   ],
   "cluster": 1
  },
- "C#/C++ Developer": {
+ "C#/C++ DEVELOPER": {
   "weight": [
    0,
    21
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "development",
+   "software",
+   "web",
+   "code",
+   "c++",
+   "c#",
+   "mobile",
+   "agile",
+   "solutions"
+  ]
  },
  "949e5a7a-4d57-11e8-9178-6a21e83a3735": {
   "weight": [
@@ -223,12 +325,17 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Engineering Manager, Vault": {
+ "ENGINEERING MANAGER, VAULT": {
   "weight": [
    0,
    19
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "development",
+   "code"
+  ]
  },
  "776c9e60-4ca0-11e8-9860-71a43ad1cbdd": {
   "weight": [
@@ -237,12 +344,16 @@ var cluster = {
   ],
   "cluster": 0
  },
- "Business Intelligence Data Engineer ": {
+ "BUSINESS INTELLIGENCE DATA ENGINEER ": {
   "weight": [
    24,
    6
   ],
-  "cluster": 0
+  "cluster": 0,
+  "clusterKeys": [
+   "data",
+   "visualization"
+  ]
  },
  "eea00520-3487-11e8-9403-ba1a7cdf47b1": {
   "weight": [
@@ -251,12 +362,22 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Game Server Engineer": {
+ "GAME SERVER ENGINEER": {
   "weight": [
    2,
    14
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "design",
+   "web",
+   "code",
+   "collaborate",
+   "java",
+   "development",
+   "mobile"
+  ]
  },
  "7f854636-4c8e-11e8-89a6-641eafe1cf00": {
   "weight": [
@@ -265,12 +386,25 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Mobile Developer at Creatubbles": {
+ "MOBILE DEVELOPER AT CREATUBBLES": {
   "weight": [
    2,
    18
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "solution",
+   "team",
+   "mobile",
+   "design",
+   "c++",
+   "java",
+   "c#",
+   "development",
+   "testing",
+   "code",
+   "solutions"
+  ]
  },
  "d4ce5b1a-4c8d-11e8-8316-de2ea6887ec8": {
   "weight": [
@@ -279,12 +413,22 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Back-end Developer at Creatubbles": {
+ "BACK-END DEVELOPER AT CREATUBBLES": {
   "weight": [
    5,
    13
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "solution",
+   "team",
+   "development",
+   "code",
+   "design",
+   "solutions",
+   "mobile",
+   "testing"
+  ]
  },
  "3e405d78-1b29-11e8-88c9-b4b578163b5c": {
   "weight": [
@@ -293,12 +437,23 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Mobile Unity/ C# Developer": {
+ "SENIOR MOBILE UNITY/ C# DEVELOPER": {
   "weight": [
    0,
    25
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "mobile",
+   "c#",
+   "agile",
+   "development",
+   "team",
+   "code",
+   "software",
+   "design",
+   "projects"
+  ]
  },
  "fb6a544e-1b29-11e8-8062-e14cc69ae428": {
   "weight": [
@@ -307,12 +462,24 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Java Software Developer for Marketing": {
+ "JAVA SOFTWARE DEVELOPER FOR MARKETING": {
   "weight": [
    1,
    31
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "java",
+   "software",
+   "agile",
+   "team",
+   "development",
+   "design",
+   "code",
+   "sql",
+   "testing",
+   "projects"
+  ]
  },
  "f0204a80-4c57-11e8-953f-45c6f7e56dd0": {
   "weight": [
@@ -321,12 +488,20 @@ var cluster = {
   ],
   "cluster": 1
  },
- "DevOps Engineer": {
+ "DEVOPS ENGINEER": {
   "weight": [
    0,
    14
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "agile",
+   "team",
+   "code",
+   "web",
+   "java",
+   "software"
+  ]
  },
  "287b3c52-4a80-11e8-95d7-60a5a19c6c42": {
   "weight": [
@@ -335,12 +510,17 @@ var cluster = {
   ],
   "cluster": 1
  },
- "sr. rails & front end developer ": {
+ "SR. RAILS & FRONT END DEVELOPER ": {
   "weight": [
    1,
    6
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "software",
+   "team",
+   "code"
+  ]
  },
  "2782ebb6-4a75-11e8-9ebb-47d33cbed1ee": {
   "weight": [
@@ -349,12 +529,16 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Software Engineer": {
+ "SENIOR SOFTWARE ENGINEER": {
   "weight": [
    10,
    9
   ],
-  "cluster": 0
+  "cluster": 0,
+  "clusterKeys": [
+   "python",
+   "data"
+  ]
  },
  "d37afd36-4a67-11e8-9114-574d811607c3": {
   "weight": [
@@ -370,12 +554,22 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Java Systems Engineer": {
+ "JAVA SYSTEMS ENGINEER": {
   "weight": [
    1,
    24
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "mobile",
+   "team",
+   "java",
+   "web",
+   "c#",
+   "development",
+   "projects",
+   "software"
+  ]
  },
  "f9de27fc-49f2-11e8-8e67-bca1a68363e5": {
   "weight": [
@@ -384,12 +578,16 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Site Reliability Engineer": {
+ "SITE RELIABILITY ENGINEER": {
   "weight": [
    2,
    2
   ],
-  "cluster": 0
+  "cluster": 0,
+  "clusterKeys": [
+   "python",
+   "data"
+  ]
  },
  "0c378362-49b2-11e8-89d0-6340ff903843": {
   "weight": [
@@ -398,12 +596,22 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Software Engineer": {
+ "SOFTWARE ENGINEER": {
   "weight": [
    2,
    36
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "software",
+   "design",
+   "development",
+   "solution",
+   "solutions",
+   "java"
+  ]
  },
  "ad6e9774-4977-11e8-808a-edb2ba4acd39": {
   "weight": [
@@ -412,12 +620,23 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior UI Software Engineer, Core Technology Group": {
+ "SENIOR UI SOFTWARE ENGINEER, CORE TECHNOLOGY GROUP": {
   "weight": [
    18,
    28
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "web",
+   "software",
+   "design",
+   "development",
+   "java",
+   "testing",
+   "code"
+  ]
  },
  "a9e2d160-4977-11e8-8e7c-9d7c584925f8": {
   "weight": [
@@ -426,12 +645,21 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Principal User Experience Designer": {
+ "PRINCIPAL USER EXPERIENCE DESIGNER": {
   "weight": [
    11,
    24
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "development",
+   "software",
+   "design",
+   "solutions",
+   "projects"
+  ]
  },
  "a6797222-4977-11e8-88ae-c942baa6c401": {
   "weight": [
@@ -440,12 +668,21 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior DevOps Engineer": {
+ "SENIOR DEVOPS ENGINEER": {
   "weight": [
    9,
    18
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "design",
+   "solutions",
+   "development",
+   "code",
+   "java"
+  ]
  },
  "a322bd0e-4977-11e8-82a2-f8413ac78eba": {
   "weight": [
@@ -454,12 +691,25 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Software Engineer, Senior Software Engineer, Informatica Cloud Service": {
+ "SENIOR SOFTWARE ENGINEER, SENIOR SOFTWARE ENGINEER, INFORMATICA CLOUD SERVICE": {
   "weight": [
    13,
    43
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "software",
+   "solutions",
+   "solution",
+   "design",
+   "web",
+   "java",
+   "development",
+   "projects",
+   "testing"
+  ]
  },
  "9f891a9e-4977-11e8-9f66-9072f030ce32": {
   "weight": [
@@ -468,12 +718,26 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Principal Front End Engineer, Informatica Cloud Service": {
+ "PRINCIPAL FRONT END ENGINEER, INFORMATICA CLOUD SERVICE": {
   "weight": [
    11,
    34
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "software",
+   "solutions",
+   "solution",
+   "design",
+   "web",
+   "development",
+   "code",
+   "projects",
+   "testing",
+   "java"
+  ]
  },
  "9c016b88-4977-11e8-877b-11c4ecdc8f84": {
   "weight": [
@@ -482,12 +746,15 @@ var cluster = {
   ],
   "cluster": 0
  },
- "Senior Product Manager, Big Data": {
+ "SENIOR PRODUCT MANAGER, BIG DATA": {
   "weight": [
    23,
    14
   ],
-  "cluster": 0
+  "cluster": 0,
+  "clusterKeys": [
+   "data"
+  ]
  },
  "97786436-4977-11e8-8fe4-cb6755acd02c": {
   "weight": [
@@ -496,12 +763,24 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Devops Engineer, Informatica Cloud Operations": {
+ "SENIOR DEVOPS ENGINEER, INFORMATICA CLOUD OPERATIONS": {
   "weight": [
    8,
    22
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "software",
+   "development",
+   "code",
+   "web",
+   "design",
+   "collaborate",
+   "java",
+   "c++"
+  ]
  },
  "9466830e-4977-11e8-9583-d87ccdb8d62b": {
   "weight": [
@@ -517,12 +796,20 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Senior Software Engineer, Metadata Foundation Team": {
+ "SENIOR SOFTWARE ENGINEER, METADATA FOUNDATION TEAM": {
   "weight": [
    16,
    18
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "software",
+   "design",
+   "code",
+   "java"
+  ]
  },
  "8caa6e1e-4977-11e8-9cb3-2c79226a2c46": {
   "weight": [
@@ -531,12 +818,20 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Cloud Product Operations Software Engineer": {
+ "CLOUD PRODUCT OPERATIONS SOFTWARE ENGINEER": {
   "weight": [
    4,
    9
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "agile",
+   "software",
+   "collaborate",
+   "solution",
+   "web"
+  ]
  },
  "85200708-4977-11e8-92ee-e4b23655e198": {
   "weight": [
@@ -552,12 +847,19 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Test Engineer": {
+ "TEST ENGINEER": {
   "weight": [
    3,
    17
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "design",
+   "team",
+   "testing",
+   "development",
+   "software"
+  ]
  },
  "91b7623a-496e-11e8-923b-adce64dba9ba": {
   "weight": [
@@ -566,12 +868,17 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Server Side Software Engineer, Apple Media Products": {
+ "SERVER SIDE SOFTWARE ENGINEER, APPLE MEDIA PRODUCTS": {
   "weight": [
    5,
    6
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "software",
+   "collaborate"
+  ]
  },
  "8e2eaf6a-496e-11e8-8554-1b960f76d2e2": {
   "weight": [
@@ -580,12 +887,19 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Sr. Video Search Engineer ": {
+ "SR. VIDEO SEARCH ENGINEER ": {
   "weight": [
    2,
    6
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "team",
+   "software",
+   "java",
+   "design",
+   "development"
+  ]
  },
  "89450de6-496e-11e8-8bd7-29d1c07e8855": {
   "weight": [
@@ -594,12 +908,20 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Sr. Software Engineer, Core Services, Apple Media Products": {
+ "SR. SOFTWARE ENGINEER, CORE SERVICES, APPLE MEDIA PRODUCTS": {
   "weight": [
    1,
    9
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "software",
+   "java",
+   "web",
+   "design",
+   "solutions",
+   "projects"
+  ]
  },
  "80419840-496e-11e8-8be1-8e491a6480fb": {
   "weight": [
@@ -608,12 +930,17 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Software Engineer, Security": {
+ "SOFTWARE ENGINEER, SECURITY": {
   "weight": [
    0,
    3
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "design",
+   "software",
+   "code"
+  ]
  },
  "6860c742-4968-11e8-92ff-224f2e12c7e2": {
   "weight": [
@@ -622,12 +949,21 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Software Developer": {
+ "SOFTWARE DEVELOPER": {
   "weight": [
    0,
    19
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "software",
+   "team",
+   "development",
+   "c#",
+   "java",
+   "sql",
+   "testing"
+  ]
  },
  "254cffc8-4965-11e8-8691-2f098e1e702d": {
   "weight": [
@@ -643,12 +979,20 @@ var cluster = {
   ],
   "cluster": 1
  },
- "Security Engineer": {
+ "SECURITY ENGINEER": {
   "weight": [
    1,
    9
   ],
-  "cluster": 1
+  "cluster": 1,
+  "clusterKeys": [
+   "code",
+   "mobile",
+   "design",
+   "testing",
+   "java",
+   "c++"
+  ]
  },
  "cluster 0": [
   {
