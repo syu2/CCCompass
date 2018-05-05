@@ -92,7 +92,6 @@
       Tree(jobinput);
       jobKeyFilter(jobinput);}
     else{
-      $("svg").empty()
       console.log('No such job available')
       var input   = document.getElementById("input").value.toUpperCase();
       
@@ -136,8 +135,9 @@
         }, true);
 
 
-        if(input = '' && hasLogo === true){
+        if(input = '' && hasLogo === true ){
           title[i].style.display = "";
+          des[i].style.display = "";
           countTitles = countTitles + 1;
         }else if( hasKey === true && hasLogo === true) {
             //show
