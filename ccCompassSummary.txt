@@ -1,0 +1,15 @@
+Major Summary of the files:
+
+ccCompass/CourseCatalog.html: loads catalog on browser
+
+ccCompass/CourseCatalog.js: onclick functions for buttons and collapsibles, window.onload to load courses
+
+ccCompass/Course.js: collects data from MIT course catalog, cleans and stores into JS objects
+
+ccCompass/Tree.js: functions for animating the tree diagram
+
+ccCompass/Jobs.js: cleans and performs single iteration knm on job data
+
+ccCompass/LinkedIn/JobsAnalysis.js: performs multiple iterations on scraped data from LinkedIn (20 jobs)
+
+ccCompass/LinkedIn/knm.html: loads button that performs multiple knm iterations on scraped data
