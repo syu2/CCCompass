@@ -1,0 +1,321 @@
+var job629691619={
+  "companyDetails": {
+    "com.linkedin.voyager.jobs.JobPostingCompany": {
+      "companyResolutionResult": {
+        "entityUrn": "urn:li:fs_normalized_company:7513",
+        "name": "Illumina",
+        "logo": {
+          "image": {
+            "com.linkedin.voyager.common.MediaProcessorImage": {
+              "id": "/gcrc/dms/image/C560BAQE6XKPNp5SDRg/company-logo_400_400/0?e=2124295200&amp;v=beta&amp;t=5BogvDf80VSwxWEZGPg-A6n_6_sL-b1ms8vGaKJAYM8"
+            }
+          },
+          "type": "SQUARE_LOGO"
+        }
+      },
+      "company": "urn:li:fs_normalized_company:7513"
+    }
+  },
+  "entityUrn": "urn:li:fs_normalized_jobPosting:629691619",
+  "formattedLocation": "San Diego, CA, US",
+  "jobState": "LISTED",
+  "description": {
+    "attributes": [
+      {
+        "start": 8,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 0,
+        "length": 9,
+        "type": {
+          "com.linkedin.pemberly.text.Underline": {}
+        }
+      },
+      {
+        "start": 0,
+        "length": 9,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 789,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 806,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 790,
+        "length": 17,
+        "type": {
+          "com.linkedin.pemberly.text.Underline": {}
+        }
+      },
+      {
+        "start": 790,
+        "length": 17,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 807,
+        "length": 128,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 935,
+        "length": 96,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1031,
+        "length": 92,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1123,
+        "length": 113,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1236,
+        "length": 104,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1433,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1340,
+        "length": 94,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 807,
+        "length": 627,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 1456,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1434,
+        "length": 23,
+        "type": {
+          "com.linkedin.pemberly.text.Underline": {}
+        }
+      },
+      {
+        "start": 1434,
+        "length": 23,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 1457,
+        "length": 135,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1592,
+        "length": 103,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1695,
+        "length": 222,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1917,
+        "length": 156,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2073,
+        "length": 67,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2140,
+        "length": 66,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2206,
+        "length": 93,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2473,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 2299,
+        "length": 175,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1457,
+        "length": 1017,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 2498,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 2474,
+        "length": 25,
+        "type": {
+          "com.linkedin.pemberly.text.Underline": {}
+        }
+      },
+      {
+        "start": 2474,
+        "length": 25,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 2499,
+        "length": 54,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2553,
+        "length": 134,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2687,
+        "length": 84,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2771,
+        "length": 100,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2871,
+        "length": 100,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 3029,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 2971,
+        "length": 59,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2499,
+        "length": 531,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 3306,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      }
+    ],
+    "text": "Overview\nThe Machine Learning/AI Engineer will be part of a team responsible to develop the infrastructure, system and predictive modeling and tools to enable proactive and predictive maintenance in support of the Service and Support organization. To accomplish this Deep Learning/AI Engineer will work with other functions such as software development and product engineering to develop complex algorithms and machine learning models leverage diverse data sources. The position will provide technical leadership to other engineers, analysts and programmers from design to deployment of models and other analytical projects. The position may also provide analytics support to other parts of the organization including Product Development, Manufacturing, Sales and Marketing and/or Finance.\nResponsibilities\nApply data mining, statistical analysis, predictive modeling, machine learning techniques to complex data structures and systemsDesign, develop, test, and implement systems to produce predictive models of product performanceProvide technical input to internal teams regarding data discovery, planning and processing.Proactively drive data management processes improvement and collaborate with developers to implement improvementsKeep current with outside advancements in data science techniques and inject developments as appropriateDevelop and defend business justifications and monitor impact of predictive modeling projects\nMinimum Qualifications\nMaster&#x2019;s degree or Ph.D. in a relevant technical discipline (Mathematics, Engineering, Computer Science, Statistics or a similar field)Minimum 8 years of relevant industry experience for Master&#x2019;s candidates or 5 years for Ph.D. candidatesExperience creating and applying advanced statistical methods and complex algorithms such as: regression, clustering, simulation, scenario analysis, neural networks and decision trees and other machine learning techniques.Experience creating and presenting model output and performance of data to stakeholders using software such as Tableau, PowerBI, Periscope, or other similarMinimum of 7 years of programming experience (C, C++, Java, Python)Minimum of 7 years of experience with relational databases and SQLExperience with statistical or computational mathematics tools (SAS, R, Jmp, Matlab, Python).Strong interpersonal and communication skills (both written and oral) including the ability to communicate complex technical/statistical concepts to a non-technical audience.\nPreferred Qualifications\nSystems engineer or reliability engineering experienceExperience leading or collaborating with a team in developing and delivering machine learning models that work in a production settingExperience working with large data sets and tools like MapReduce, Hadoop, Hive, etc.Experience with web services such as AWS, Redshift, S3, and/or Spark connecting to data using API&#x2019;s.Experience connecting and analyzing data from multiple business applications (SAP, SFDC, IBM Cognos)Ability to work in a global collaborative team environment\nApplicants for employment in the US must have work authorization that does not now or in the future require sponsorship of a visa for employment authorization in the United States and with Accenture (i.e., H1-B visa, F-1 visa (OPT), TN visa or any other non-immigrant status).\nIllumina believes that everyone has the ability to make an impact, and we are proud to be an equal opportunity employer committed to providing employment opportunity regardless of sex, race, creed, color, gender, religion, marital status, domestic partner status, age, national origin or ancestry, physical or mental disability, medical condition, sexual orientation, pregnancy, military or veteran status, citizenship status, and genetic information. If you have a disability or special need that requires accommodation, please contact us at 858-255-5081. To learn more, visit: https://www.dol.gov/ofccp/regs/compliance/posters/pdf/eeopost.pdf"
+  },
+  "applyMethod": {
+    "com.linkedin.voyager.jobs.OffsiteApply": {
+      "applyStartersPreferenceVoid": true,
+      "companyApplyUrl": "https://illumina.wd1.myworkdayjobs.com/en-US/illumina-careers/job/US---California---San-Diego/Sr-Deep-Learning-AI-Engineer_12057-JOB/apply?source=LNKD"
+    }
+  },
+  "title": "Machine Learning/AI Engineer",
+  "listedAt": 1524637135000
+}

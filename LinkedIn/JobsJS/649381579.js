@@ -1,0 +1,312 @@
+var job649381579={
+  "companyDetails": {
+    "com.linkedin.voyager.jobs.JobPostingCompany": {
+      "companyResolutionResult": {
+        "entityUrn": "urn:li:fs_normalized_company:1307",
+        "name": "Fidelity Investments",
+        "logo": {
+          "image": {
+            "com.linkedin.voyager.common.MediaProcessorImage": {
+              "id": "/gcrc/dms/image/C4E0BAQFBVOZ626AFWQ/company-logo_400_400/0?e=2124255600&amp;v=beta&amp;t=g521rxk74Zz5iUKMst_3-tHWKLwt8zYuFldBJJbNlIg"
+            }
+          },
+          "type": "SQUARE_LOGO"
+        }
+      },
+      "company": "urn:li:fs_normalized_company:1307"
+    }
+  },
+  "entityUrn": "urn:li:fs_normalized_jobPosting:649381579",
+  "formattedLocation": "Boston, MA, US",
+  "jobState": "LISTED",
+  "description": {
+    "attributes": [
+      {
+        "start": 485,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 490,
+        "length": 7,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 510,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 959,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 964,
+        "length": 7,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 1010,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1025,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1011,
+        "length": 15,
+        "type": {
+          "com.linkedin.pemberly.text.Underline": {}
+        }
+      },
+      {
+        "start": 1011,
+        "length": 15,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 1390,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1391,
+        "length": 120,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1511,
+        "length": 134,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1645,
+        "length": 102,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1878,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1747,
+        "length": 132,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1391,
+        "length": 488,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 1883,
+        "length": 9,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 1910,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 2559,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 2560,
+        "length": 118,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2678,
+        "length": 313,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2991,
+        "length": 42,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 3033,
+        "length": 66,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 3099,
+        "length": 168,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 3267,
+        "length": 64,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 3331,
+        "length": 67,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 3554,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 3398,
+        "length": 157,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 2560,
+        "length": 995,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 3569,
+        "length": 7,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 3593,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 4178,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 4195,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 4179,
+        "length": 17,
+        "type": {
+          "com.linkedin.pemberly.text.Underline": {}
+        }
+      },
+      {
+        "start": 4179,
+        "length": 17,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 4592,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 4573,
+        "length": 20,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        }
+      },
+      {
+        "start": 4647,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 4593,
+        "length": 55,
+        "type": {
+          "com.linkedin.pemberly.text.Italic": {}
+        }
+      }
+    ],
+    "text": "Strategic Advisers, Inc. (SAI) is a fast growing fund of funds managed account business currently with $250 billion in assets under management. One of SAI&#x2019;s core goals is to create customization at scale for our hundreds of thousands of clients. Over the next several years we expect quantitative development to play a very significant role by leveraging technology to achieve our goals and therefore will offer immense growth opportunities for the quantitative development associates.\nThe Purpose of Your Role\nQuantitative Developer is a core software engineering role in our dynamic and fast-paced quantitative development team. You will be &#x2018;embedded&#x2019; within the quantitative research team and you will partner with the investment teams on various projects including portfolio construction, risk management, and alpha research. You will create high quality, robust, and efficient analytical solutions that will be used to enhance SAI&#x2019;s investment processes.\nThe Impact Your Work Will Have on the Organization\nThis Role Will\nThis role impacts the organization by improving the quality and time-to-market of Research initiatives through a combination of both analytical and software development skillsets. The assignments will include gathering the ideas, conceptualizing them through a programming language and creating a packaged solution that can be used by the investment professionals.\nIntelligently apply advanced analytics and quantitative concepts to support investment needs and develop new solutions. Lead the implementation of a research project through the entire software development lifecycle utilizing a full-stack implementation.Add scale, rigor, and repeatability to our Research teams through software development best practices.Assist Research teams in developing new models and products that will provide an advantage to the organization in the marketplace. \nThe Expertise We&#x2019;re Looking For\nThe successful candidate for this role will partner with the fundamental and quantitative investment research teams to co-develop, validate and implement new research ideas with proof-of-concept, prototype, and production solutions. The candidate will be responsible for employing agile methodologies to conceptualize the ideas, using mostly R and SQL to then package the concepts into meaningful and effective solutions. To be successful in the role s/he should have a good understanding of advanced quantitative techniques and methods, statistics and econometrics, as well as a proven track record in hands-on development of analytical solutions.\nBachelor&#x2019;s Degree in a quantitative or computational field such as Statistics, Computer Science or Applied MathematicsMinimum of 5 years experience (or Masters Degree in relevant field with 3 years of experience) working as a quantitative developer/financial engineer within the financial industry (buy-, sell-side or analytics vendor). Ideal candidates have experience with building risk or alpha models and portfolio optimizationFull-stack software development knowledge.Technical and programming skills including R, Java, SQL and Linux.Good understanding of advanced quantitative techniques and methods, statistics and econometrics &#x2013; including probability, linear regression and time series data analysisBasic knowledge in either equities or fixed income asset classesProven track record in hands-on development of analytical solutionsAbility to effectively communicate with multiple stakeholders, including fundamental and quantitative researchers, technology partners and senior management\nHow Your Work Impacts the Organization\nFidelity Investments is one of the world&apos;s largest providers of financial services, and offers investment management, retirement planning, brokerage, human resources and benefits outsourcing services to individuals and institutions. Asset Management Technology (AMT) provides worldwide technology and support to all the Investment Management, Research, Trading and Investment Operations functions. AMT is an integral partner for Asset Management to deliver innovative, scalable, industry-leading investment tools that enable Asset Management to achieve competitive advantage globally.\nCompany Overview\nAt Fidelity, we are focused on making our financial expertise broadly accessible and effective in helping people live the lives they want. We are a privately held company that places a high degree of value in creating and nurturing a work environment that attracts the best talent and reflects our commitment to our associates. For information about working at Fidelity, visit FidelityCareers.com\nFidelity Investments is an equal opportunity employer.\n"
+  },
+  "applyMethod": {
+    "com.linkedin.voyager.jobs.OffsiteApply": {
+      "applyStartersPreferenceVoid": true,
+      "companyApplyUrl": "https://www.applytracking.com/x.aspx?method=direct&amp;type=apply&amp;board=D92FCD45-1292-4AE2-B555-D7A273418B42&amp;Job=1800403&amp;ClientCode=13680"
+    }
+  },
+  "title": "Quantitative Developer",
+  "listedAt": 1522844674000
+}
