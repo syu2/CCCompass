@@ -186,17 +186,21 @@ job.knm = function(jobsArray, clusterKeys){
 
     clusterCount = {};
     clusterJobIDs = {cluster0:[], cluster1:[], cluster2:[]};
+    clusterJobNames = {cluster0:[], cluster1:[], cluster2:[]};
+
     jobsArray.forEach(function(a){
         var clusterID = 'cluster' + assignment[a];
         clusterCount[clusterID] =  (clusterCount[clusterID] || 0) + 1;
         clusterJobIDs[clusterID].push(a);
+        clusterJobNames[clusterID].push( job.getJS(a, 'jobTitle') );
         //console.log(clusterJobIDs);
     });
 
     return {'weight': weights,
             'assignment': assignment,
             'clusterCount' : clusterCount,
-            'clusterJobIDs' : clusterJobIDs};
+            'clusterJobIDs' : clusterJobIDs,
+            'clusterJobNames': clusterJobNames};
 }
 
 //input: ([arry of ID], number)
