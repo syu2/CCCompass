@@ -1,0 +1,51 @@
+<html>
+<body>
+<script>
+    var loadJSON = function(id){
+        var file = 'jobsJson/' + id + '.json';
+        var xobj = new XMLHttpRequest();
+        //true -> false
+        xobj.open('GET', file, false);
+        xobj.onload = function (){
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            var json = JSON.parse(xobj.response)
+            return json
+        }
+        };
+        xobj.send(Int8Array);
+        //console.log(xobj.onload());
+        return xobj.onload();
+    };
+
+    var IDs = [
+    671112765, //01 Shyft, Solution Developer, Entry level
+    592120017, //02 Geiko, Entry Level Software Developer, Entry level
+    611776321, //03 Deutsche Bank, Java Developer, Entry level
+    644589134, //04 Wayfair, Data Scientist PhD, Entry level
+    610433771, //05 AWS, Data Scienctist, na
+    597934372, //06 Adobe, Data Scientist, Entry level
+    623266739, //07 State Street, Quantitative Analyst, na
+    649381579, //08 Fidelity, Quantitative Developer, Associate
+    632531333, //09 Novartis, Proteomics Research Scientist, Associate
+    632532043, //10 Novartis, Scientific Associate II - Biochemistry/Biophysics
+    632532499, //11 Novartis, Scientific Associate, Associate
+    632597581, //12 McGrawHill, Platform Engineering, Director
+    629866611, //13 New York Times, Data Scientist
+    629691619, //14 Illumina, Machine Learning AI Engineer
+    670036417, //15 Cisco, Machine Learning Engineer
+    593671734, //16 Mashing Inc, Deep Learning Engineer
+    604090266, //17 Amazon, Machine Learning Engineer
+    638387431, //18 Bose, Software Automation Engineer
+    573124744, //19 Comcast, Test Engineerg 
+    662976125  //20 Citi, Quantitative Analyst
+]
+
+    IDs.forEach(function(id){
+        console.log( '%c' + loadJSON(id).title, 'background: #222; color: #bada55')
+        var txt = 'com.linkedin.voyager.jobs.JobPostingCompany'
+        console.log('%c' + loadJSON(id).companyDetails[txt].companyResolutionResult.name, 'background: green ; color: white')
+        console.log(loadJSON(id).description.text)
+    })
+</script>
+</body>
+</html>

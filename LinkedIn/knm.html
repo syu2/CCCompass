@@ -1,0 +1,63 @@
+<html>
+<head>
+    <script src ='JobsJS/671112765.js' ></script>
+    <script src ='JobsJS/592120017.js' ></script>
+    <script src ='JobsJS/611776321.js' ></script>
+    <script src ='JobsJS/644589134.js' ></script>
+    <script src ='JobsJS/610433771.js' ></script>
+    <script src ='JobsJS/597934372.js' ></script>
+    <script src ='JobsJS/623266739.js' ></script>
+    <script src ='JobsJS/649381579.js' ></script>
+    <script src ='JobsJS/632531333.js' ></script>
+    <script src ='JobsJS/632532043.js' ></script>
+    <script src ='JobsJS/632532499.js' ></script>
+    <script src ='JobsJS/632597581.js' ></script>
+    <script src ='JobsJS/632532499.js' ></script>
+    <script src ='JobsJS/629866611.js' ></script>
+    <script src ='JobsJS/632532499.js' ></script>
+    <script src ='JobsJS/629691619.js' ></script>
+    <script src ='JobsJS/632532499.js' ></script>
+    <script src ='JobsJS/670036417.js' ></script>
+    <script src ='JobsJS/593671734.js' ></script>
+    <script src ='JobsJS/604090266.js' ></script>
+    <script src ='JobsJS/638387431.js' ></script>
+    <script src ='JobsJS/573124744.js' ></script>
+    <script src ='JobsJS/662976125.js' ></script>
+    
+    <script src ='JobsAnalysis.js' ></script>
+</head>
+
+<body>
+    <button onclick = 'knm()' >KNM</button>
+</body>
+
+<body>
+    <script>
+    var iteration = 0;
+    var knm = function(){
+        console.log('======iteration ' + iteration + '======')
+        var knmResult = job.knm(IDs, KeyWords['iteration' + iteration]);
+        
+        var cluster0jobs = knmResult['clusterJobIDs']['cluster0']
+        var cluster1jobs = knmResult['clusterJobIDs']['cluster1']
+        var cluster2jobs = knmResult['clusterJobIDs']['cluster2']
+
+        iteration += 1;
+
+        //update keywords
+        KeyWords['iteration' + iteration] = {};
+        KeyWords['iteration' + iteration]['0'] = job.CentroidKey(cluster0jobs, 1);
+        KeyWords['iteration' + iteration]['1'] = job.CentroidKey(cluster1jobs, 2);
+        KeyWords['iteration' + iteration]['2'] = job.CentroidKey(cluster2jobs, 2)
+
+        console.log(knmResult);
+        console.log(KeyWords['iteration' + iteration])
+    }
+
+        // window.onload = function(){
+        //     console.log(job.knm(IDs, KeyWords['iteration0']))
+        //     console.log(job.CentroidKey([644589134,610433771,597934372,623266739], 3))
+        // }
+    </script>
+</body>
+</html>
